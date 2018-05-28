@@ -54,13 +54,8 @@ html, body {
 }
 
 .jumbotron{
-  padding: 1rem;
+  padding: 3rem;
   border-radius: 0;
-}
-
-.jumbotron-title{
-  
-  color: #16ADB1;
 }
 
 .padding{
@@ -124,20 +119,10 @@ html, body {
 }
 
 footer{
-  background-color: #3f3f3f;
-  color: #d5d5d5;
+  background-color: #E8E8EE;
+  color: #000000;
   padding-top: 2rem;
-}
-
-hr.light{
-  border-top: 1px solid #d5d5d5;
-  width: 75%;
-  margin-top: .8rem;
-  margin-bottom: 1rem;
-}
-
-footer a{
-  color: #d5d5d5;
+  padding-left: 5%;
 }
 
 hr.light-100{
