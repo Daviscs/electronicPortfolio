@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Davis's World</title>
+	<title>Davis's Portfolio</title>
 	<link rel= "icon" href= "img/icon.ico"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -53,99 +53,41 @@
 </nav>
 
 <!--- Image Slider -->
-<div id = "slides" class= "carousel slide" data-ride = "carousel">
-<ul class = "carousel-indicators">
-		<li data-target = "#slides" data-slide-to= "0" class = "active"></li>
-		<li data-target = "#slides" data-slide-to= "1"></li>
-		<li data-target = "#slides" data-slide-to= "2"></li>
-</ul>
+
 <div class = "carousel-inner">
 		<div class= "carousel-item active">
 				<img src= "img/background.png">
 				<div class = "carousel-caption">
 						<h1 class"display-2"> Davis Tran</h1>
 						<h3> Electronic Portfolio</h3>
-						<button type = "button" class = "btn btn-outline-light btn-lg"> Github
-						</button>
-						<button type = "button" class ="btn btn-primary btn-lg"> Linkedin </button>
+							<a href="https://github.com/Daviscs" target="_blank" ><button type = "button" class = "btn btn-outline-light btn-lg"> Github</button></a>
+							<a href="https://www.linkedin.com/in/davis-tran-b4362915b/" target="_blank" ><button type = "button" class ="btn btn-primary btn-lg"> Linkedin </button></a>
 				</div>
 		</div>
-
-		<div class= "carousel-item">
-				<img src= "img/coding.jpeg">
-		</div>
-
-		<div class= "carousel-item">
-				<img src= "img/design.jpg">
-				<div class = "carousel-caption">
-						<h1 class"display-2"> Designing</h1>
-				</div>
-		</div>
-
-</div>
 </div>
 
-<!--- Jumbotron -->
-<div class = "container-fluid">
-<div class = "row jumbotron">
-
-</div>
-</div>
 
 <!--- About Me Section -->
 <div id='aboutMe'><a name='aboutMe'></a></div>
-<div class"container-fluid padding">
-	<div class = "row padding">
-			<div class= "col-lg-6">
-					<h2>About Me </h2>
-					<p>I'm a fourth year student at Virginia CommonWealth University expecting to graduate
-					in May 2019. I am passionate about programming and I hope to develop a useful software
-				  that everyone can use in the near future. I enjoy doing front-end development and designing
-				  UI because I can design anything that my imagination desires.</p>
+<div class="container-fluid padding">
+	<div class= "row welcome text-center">
+			<div class = "col-12">
+				<h1 class = "display-4">About Me.</h1>
 			</div>
-<div class= "col-lg-6">
-	<img src= "img/davis.jpeg" class = "img-fluid">
-</div>
+			<hr>
 
+<div class = "col-12">
+		<p class = "lead">
+				Davis.education = Virginia CommonWealth University;<br>
+				Davis.expectedGraduation = May 2019;<br>
+				Davis.major = Computer Science;<br>
+				Davis.interests = {"Hiking", "Shoes", "Gaming", "Coding"};
+		</p>
 	</div>
 </div>
-
-<hr class= "my-4">
-
-<!--- Fixed background -->
-<figure>
-	<div class= "fixed-wrap">
-		<div id = "fixed">
-		</div>
-	</div>
-</figure>
-
-<!--- Fun Section -->
-<button class= "fun" data-toggle= "collapse" data-target = "#emoji">What I do for fun (click)
-</button>
-
-<div id = "emoji" class= "collapse">
-	 <div class = "container-fluid padding">
-		 <div class = "row text-center">
-			 	<div class = "col-sm-6 col-md-3">
-					<img class= "gif" src= "img/gif/lifting.gif">
-					Gym
-				</div>
-				<div class = "col-sm-6 col-md-3">
-					<img class= "gif" src= "img/gif/shopping.gif">
-					Shopping
-				</div>
-				<div class = "col-sm-6 col-md-3">
-					<img class= "gif" src= "img/gif/hiking.gif">
-					Hiking
-				</div>
-				<div class = "col-sm-6 col-md-3">
-					<img class= "gif" src= "img/gif/eatting.gif">
-					Eating!
-				</div>
-		 </div>
-	 </div>
 </div>
+
+
 <hr class = "my-4">
 
 <!--- Welcome Section -->
@@ -202,33 +144,33 @@
 	<div class = "row padding">
 		<div class = "col-md-4">
 				<div class = "card">
-					<img src = "img/QuizMe.png">
+					<img  class = "card-img-top" src = "https://media.giphy.com/media/7TkJMFwgobGCI4B4Hj/giphy.gif">
 					<div class = "card-body">
 						<h4 class = "card-title">Quiz Me</h4>
-						<p class = "card-text"> Allows users to connect and compete with each other to test their knowledge about different subjects.</p>
-						<a href = "#" class = "btn btn-outline-secondary">See project</a>
+						<p class = "card-text"> A mobile app that allows users to connect and compete with each other to test their knowledge about different subjects.</p>
+						<a href = "https://github.com/hoangjd/Multiplayer-Quiz" target="_blank" class = "btn btn-outline-secondary">See project</a>
 					</div>
 				</div>
 		</div>
 
 		<div class = "col-md-4">
 				<div class = "card">
-					<img src = "img/gymRat.png">
+					<img class= "card-img-top" src= "https://media.giphy.com/media/82nECSMGxvdLO9uWkl/giphy.gif">
 					<div class = "card-body">
-						<h4 class = "card-title">Gym Rat</h4>
-						<p class = "card-text">A mobile workout app that helps the user plan their own workout schedule. Keeping them on track to their desire body!</p>
-						<a href = "#" class = "btn btn-outline-secondary">See project</a>
+						<h4 class = "card-title">Twitter Bot</h4>
+						<p class = "card-text">A Twitter bot made using nodeJs and Twit API. Used to help user monitor an account for a keyword in a status.</p>
+						<a href = "https://github.com/Daviscs/twitterBot" target="_blank" class = "btn btn-outline-secondary">See project</a>
 					</div>
 				</div>
 		</div>
 
 		<div class = "col-md-4">
 				<div class = "card">
-					<img class = "card-img-top" src = "img/shop.png">
+					<img class = "card-img-top" src = "https://media.giphy.com/media/3kHHBrYTh7Fev19Smt/giphy.gif">
 					<div class = "card-body">
-						<h4 class = "card-title">ShopMe</h4>
-						<p class = "card-text">A shopping app where you can get your fire jawnz and flex only on your fellow dudes bc gorls don't give af.</p>
-						<a href = "#" class = "btn btn-outline-secondary">See project</a>
+						<h4 class = "card-title">Weather</h4>
+						<p class = "card-text">A website that uses an open source weather api to retrieve the current weather forcast of the desire city that the user searches.</p>
+						<a href = "https://github.com/Daviscs/weather" target="_blank" class = "btn btn-outline-secondary">See project</a>
 					</div>
 				</div>
 		</div>
@@ -246,8 +188,8 @@
 </div>
 		<div class = "col-12 social padding">
 				<a href= "mailto:trandavis18@yahoo.com"><i class= "fa fa-envelope"></i></a>
-			<a href= "https://github.com/Daviscs"><i class= "fab fa-github"></i></a>
-			<a href= "https://www.linkedin.com/in/davis-tran-b4362915b/"><i class= "fab fa-linkedin"></i></a>
+			<a href= "https://github.com/Daviscs" target="_blank" ><i class= "fab fa-github"></i></a>
+			<a href= "https://www.linkedin.com/in/davis-tran-b4362915b/" target="_blank" ><i class= "fab fa-linkedin"></i></a>
 		</div>
 	</div>
 </div>
